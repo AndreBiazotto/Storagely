@@ -1,0 +1,172 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo-area {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    align-items: center;
+    background: #52E761;
+}
+
+#ellipse-1{
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    left: calc(50% - 400px);
+    top: calc(50% - 400px);
+    border-radius: 400px;
+    align-items: center;
+    background: #3DAA52;
+}
+
+#ellipse-2{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: calc(50% - 300px);
+    top: calc(50% - 300px);
+    border-radius: 300px;
+    align-items: center;
+    background: #296D43;
+}
+
+#ellipse-3 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: calc(50% - 200px);
+    top: calc(50% - 200px);
+    border-radius: 200px;
+    align-items: center;
+    background: #153035;
+}
+
+#ellipse-4 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: calc(50% - 100px);
+    top: calc(50% - 100px);
+    border-radius: 100px;
+    align-items: center;
+    background: #FCFCFC;
+}
+
+#logo{
+    position: absolute;
+    width: 80px;
+    height: 150px;
+    left: 60px;
+    top: 25px;
+    
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 146px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #52E761;
+}
+
+@media screen and (max-width: 1000px) {
+    #ellipse-1{
+        width: 0px;
+        height: 0px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #ellipse-2{
+        width: 0px;
+        height: 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #ellipse-3{
+        width: 0px;
+        height: 0px;
+    }
+}
+
+
+#new-account-area {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 50%;
+    top: 0px;
+    background: #296D43;
+}
+
+#form-area{
+    --width: 100%;
+    --height: 100%;
+    position: absolute;
+    width: calc(100% - 100px);
+    height: calc(100% - 100px);
+    left: calc(50px);
+    top: calc(50px);
+    background: #FCFCFC;
+    border-radius: 50px;
+}
+
+#form-area input {
+    box-sizing: border-box;
+    position: absolute;
+    width: calc(100% - 15px);
+    height: 60px;
+    background: #D9D9D9;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    margin: 5px;
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: rgba(0, 0, 0, 0.65);
+}
+
+#form-area ::placeholder{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: rgba(0, 0, 0, 0.65);
+}
+
+#name {
+    top: 0px;
+}
+
+#email {
+    top: 65px;
+}
+
+#login {
+    top: 130px;
+}
+
+#password {
+    top: 195px;
+}
+
+#repet-password {
+    top: 260px;
+}
