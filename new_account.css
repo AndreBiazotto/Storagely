@@ -136,7 +136,7 @@ body {
     text-align: center;
     text-transform: uppercase;
 
-    color: rgba(0, 0, 0, 0.65);
+    color: rgba(0, 0, 0, 0.85);
 }
 
 #form-area ::placeholder{
@@ -148,7 +148,7 @@ body {
     text-align: center;
     text-transform: uppercase;
 
-    color: rgba(0, 0, 0, 0.65);
+    color: rgba(0, 0, 0, 0.55);
 }
 
 #name {
@@ -169,4 +169,44 @@ body {
 
 #repet-password {
     top: 260px;
+}
+
+#form-area button{
+    box-sizing: border-box;
+    position: absolute;
+    width: calc(50% - 15px);
+    height: 60px;
+    background: #D9D9D9;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    margin: 5px;
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: rgba(0, 0, 0, 0.85);
+}
+
+#button-create-accout {
+    top: 325px;
+}
+
+#button-back {
+    top: 325px;
+    left: 50%;
+}
+
+#button-create-accout:hover {
+    background: #1A8DA6;
+    color: #D9D9D9;
+}
+
+#button-back:hover {
+    background: #BE2626;
+    color: #D9D9D9;
 }
