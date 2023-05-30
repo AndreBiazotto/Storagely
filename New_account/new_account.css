@@ -75,7 +75,24 @@ body {
     color: #52E761;
 }
 
+
+#new-account-area {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 50%;
+    top: 0px;
+    background: #296D43;
+}
+
 @media screen and (max-width: 1000px) {
+    #logo-area {
+        width: 40%;
+    }
+    #new-account-area {
+        width: 60%;
+        left: 40%;
+    }
     #ellipse-1{
         width: 0px;
         height: 0px;
@@ -87,6 +104,13 @@ body {
         width: 0px;
         height: 0px;
     }
+    #logo-area {
+        width: 30%;
+    }
+    #new-account-area {
+        width: 70%;
+        left: 30%;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -94,24 +118,19 @@ body {
         width: 0px;
         height: 0px;
     }
-}
-
-
-#new-account-area {
-    position: absolute;
-    width: 50%;
-    height: 100%;
-    left: 50%;
-    top: 0px;
-    background: #296D43;
+    #logo-area {
+        width: 20%;
+    }
+    #new-account-area {
+        width: 80%;
+        left: 20%;
+    }
 }
 
 #form-area{
-    --width: 100%;
-    --height: 100%;
     position: absolute;
-    width: calc(100% - 100px);
-    height: calc(100% - 100px);
+    width: 500px;
+    height: calc(100% - 200px);
     left: calc(50px);
     top: calc(50px);
     background: #FCFCFC;
@@ -121,12 +140,12 @@ body {
 #form-area input {
     box-sizing: border-box;
     position: absolute;
-    width: calc(100% - 15px);
-    height: 60px;
+    width: 400px;
+    height: 40px;
     background: #D9D9D9;
     border: 1px solid #000000;
     border-radius: 50px;
-    margin: 5px;
+    margin: 50px;
 
     font-family: 'Montserrat Alternates';
     font-style: normal;
@@ -156,30 +175,32 @@ body {
 }
 
 #email {
-    top: 65px;
+    top: 60px;
 }
 
 #login {
-    top: 130px;
+    top: 120px;
 }
 
 #password {
-    top: 195px;
+    top: 240px;
 }
 
 #repet-password {
-    top: 260px;
+    top: 300px;
 }
 
 #form-area button{
     box-sizing: border-box;
     position: absolute;
-    width: calc(50% - 15px);
-    height: 60px;
+    width: 160px;
+    height: 40px;
     background: #D9D9D9;
     border: 1px solid #000000;
     border-radius: 50px;
-    margin: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
 
     font-family: 'Montserrat Alternates';
     font-style: normal;
@@ -193,11 +214,20 @@ body {
 }
 
 #button-create-accout {
-    top: 325px;
+    top: 360px;
+}
+
+#button-meneger {
+    top: 180px;
+    left: 50%;
+}
+
+#button-user {
+    top: 180px;
 }
 
 #button-back {
-    top: 325px;
+    top: 360px;
     left: 50%;
 }
 
