@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#header-area {
+    width: 100%;
+    height: 75px;
+    background-color: #52E761;
+}
+
+#logo-area {
+    width: 300px;
+}
+
+#bg-ellipse-1 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background-color: #52E761;
+    left: 0px;
+    top: -113px;
+}
+
+#bg-ellipse-2 {
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    border-radius: 112.5px;
+    background: #296D43;
+    left: 37px;
+    top: -75px;
+}
+
+#bg-ellipse-3 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background: #153035;
+    left: 75px;
+    top: -38px;
+}
+
+#bg-ellipse-4 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    border-radius: 37.5px;
+    background: #FCFCFC;
+    left: 112px;
+    top: 0px;
+}
+
+#logo {
+    position: absolute;
+    width: 40px;
+    height: 80px;
+    left: 16.5px;
+    top: -2.5px;
+
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #52E761;
+}
+
+@media screen and (max-width: 1000px){
+    #logo-area {
+        visibility: collapse;
+    }
+}
+
+
+
+#links-area {
+    position: absolute;
+    top: 0;
+    left: 300px;
+    height: 100px;
+    width: 700px;
+}
+
+.label{
+    margin: 10px;
+    position: relative;
+    top: 22.5px;
+
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+}
+
+.label:hover {
+    background-color: rgba(21, 48, 53, 0.25);
+    color: #FCFCFC;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 1000px){
+    #links-area {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100px;
+        width: 700px;
+    }
+    .label{
+        margin: 5px;
+        position: relative;
+        top: 22.5px;
+
+        text-decoration: none;
+        font-family: Verdana, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #000000;
+        text-align: center;
+        word-break: break-all;
+    }
+}
+
+#links-box{
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: 0;
+    left: 0;
+    visibility:hidden;
+}
+
+@media screen and (max-width: 650px){
+    #links-area {
+        visibility: collapse;
+    }
+
+    #links-box{
+        visibility: visible;
+    }
+
+}
+
+#login-area {
+    position: absolute;
+    height: 75px;
+    width: 100px;
+    right: 0;
+}
+
+#login {
+    margin: 10px;
+    position: relative;
+    top: 22.5px;
+    right: 15px;
+
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+
+    background-color: rgba(21, 48, 53, 0.25);
+    color: #FCFCFC;
+
+    padding: 10px;
+    border-radius: 20px;
+}
